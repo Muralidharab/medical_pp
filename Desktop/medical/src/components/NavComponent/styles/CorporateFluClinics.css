@@ -1,0 +1,29 @@
+.corporate-flu-clinics-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .corporate-flu-clinics-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .corporate-flu-clinics-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .corporate-flu-clinics-container h4 {
+    color: #007acc; /* Medium blue color for subsections */
+  }
+  
+  .corporate-flu-clinics-container ul {
+    padding-left: 20px;
+  }
+  
+  .corporate-flu-clinics-container li {
+    margin-bottom: 10px;
+  }
+  
+  .corporate-flu-clinics-container p {
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,29 @@
+.contraceptive-implant-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .contraceptive-implant-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .contraceptive-implant-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .contraceptive-implant-container h4 {
+    color: #0056b3; /* Medium blue color for sub-subheadings */
+  }
+  
+  .contraceptive-implant-container ul {
+    padding-left: 20px;
+  }
+  
+  .contraceptive-implant-container li {
+    margin-bottom: 10px;
+  }
+  
+  .contraceptive-implant-container p {
+    line-height: 1.6;
+  }
+  

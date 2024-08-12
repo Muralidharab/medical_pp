@@ -1,0 +1,25 @@
+.preventative-health-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .preventative-health-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .preventative-health-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .preventative-health-container ol, .preventative-health-container ul {
+    padding-left: 20px;
+  }
+  
+  .preventative-health-container li {
+    margin-bottom: 10px;
+  }
+  
+  .preventative-health-container p {
+    line-height: 1.6;
+  }
+  

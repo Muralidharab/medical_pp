@@ -12,6 +12,16 @@ import Contact from "./pages/Contact";
 import Opd from "../Opd";
 import Surgeons from "../Surgeons";
 import AppointmentModal from "../AppointmentModal";
+import MensHealth from "./pages/MensHealth";
+import ChildrensHealth from "./pages/ChildrensHealth";
+import ChronicDiseaseManagement from "./pages/ChronicDiseaseManagement";
+import PreventativeHealth from "./pages/PreventativeHealth";
+import Immunisations from "./pages/Immunisations";
+import TravelMedicine from "./pages/TravelMedicine";
+import CorporateFluClinics from "./pages/CorporateFluClinics";
+import IronInfusions from "./pages/IronInfusions";
+import ShinglesVaccine from "./pages/ShinglesVaccine";
+import ContraceptiveImplant from "./pages/ContraceptiveImplant";
 
 function NavHeader() {
   const [first, setfirst] = useState(false)
@@ -37,7 +47,7 @@ function NavHeader() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse ml-2" id="navbarNav">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link header-style" to="/">
@@ -65,25 +75,76 @@ function NavHeader() {
                   aria-labelledby="servicesDropdown"
                 >
                   <li>
-                    <Link className="dropdown-item text-dark" to="/Opd" style={{color:'black'}}>
-                      Opd
+                    <Link className="dropdown-item text-dark" to="/Telehealth" style={{color:'black'}}>
+                    Tele health
                     </Link>
                   </li> 
                   <li>
-                    <Link className="dropdown-item text-dark" to="/Surgeons " style={{color:'black'}}>
-                    Surgeons
+                    <Link className="dropdown-item text-dark" to="/Women’" style={{color:'black'}}>
+                    Women’s Health
                     </Link>
                   </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/mens-health" style={{color:'black'}}>
+                    Men’s Health
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/childrens-health" style={{color:'black'}}>
+                    Children’s Health
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/chronic-disease-management" style={{color:'black'}}>
+                    Chronic Disease Management
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/Preventative-health" style={{color:'black'}}>
+                    Preventative Health
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/immunisations" style={{color:'black'}}>
+                    Immunisations 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/travel-medicine" style={{color:'black'}}>
+                    Travel Medicine in Australia
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/corporate-flu-clinics" style={{color:'black'}}>
+                    Corporate Flu Clinics
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/iron-infusions" style={{color:'black'}}>
+                    Iron Infusions 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/shingles-vaccine" style={{color:'black'}}>
+                    Shingles Vaccine 
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item text-dark" to="/contraceptive-implant" style={{color:'black'}}>
+                    Contraceptive Implant 
+                    </Link>
+                  </li>
+
                   {/* Add more items as needed */}
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link header-style" to="/news">
+                <Link className="nav-link header-style" to="/news" >
                   News
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link header-style" to="/contactUs">
+                <Link className="nav-link header-style" to="/contact" >
                   Contact Us
                 </Link>
               </li>
@@ -105,9 +166,19 @@ function NavHeader() {
             <Route path="/ourPractice" element={<OurPractice />} />
             <Route path="/services" element={<Services />} />
             <Route path="/news" element={<News />} />
-            <Route path="/contactUs" element={<Contact />} />
-            <Route path="/Opd" element={<Opd />} />
-            <Route path="/Surgeons" element={<Surgeons/>} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/Telehealth" element={<Opd />} />
+            <Route path="/Women’" element={<Surgeons/>} />
+            <Route path="/mens-health" element={<MensHealth />} />
+            <Route path="/childrens-health" element={<ChildrensHealth />} />
+            <Route path="/chronic-disease-management" element={<ChronicDiseaseManagement />} />
+            <Route path="/Preventative-health" element={<PreventativeHealth />} />
+            <Route path="/immunisations" element={<Immunisations />} />
+            <Route path="/travel-medicine" element={<TravelMedicine />} /> 
+            <Route path="/corporate-flu-clinics" element={<CorporateFluClinics />} />
+            <Route path="/iron-infusions" element={<IronInfusions />} />
+            <Route path="/shingles-vaccine" element={<ShinglesVaccine />} />
+            <Route path="/contraceptive-implant" element={<ContraceptiveImplant />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>

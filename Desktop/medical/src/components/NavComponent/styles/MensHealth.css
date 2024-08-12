@@ -1,0 +1,25 @@
+.mens-health-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .mens-health-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .mens-health-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .mens-health-container ul {
+    padding-left: 20px;
+  }
+  
+  .mens-health-container li {
+    margin-bottom: 10px;
+  }
+  
+  .mens-health-container p {
+    line-height: 1.6;
+  }
+  

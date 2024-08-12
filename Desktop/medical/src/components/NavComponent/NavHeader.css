@@ -1,4 +1,4 @@
-/* NavHeader.css */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -8,20 +8,20 @@ body, html {
   header {
     position: fixed;
     width: 100%;
-    z-index: 1030; /* Higher than Bootstrap's default navbar z-index */
+    z-index: 1030; 
   }
   
   main {
     flex: 1 1 auto;
     overflow-y: auto;
-    padding-top: 70px; /* Adjust according to header height */
-    padding-bottom: 70px; /* Adjust according to footer height */
+    padding-top: 70px; 
+    padding-bottom: 70px; 
   }
   
   footer {
     width: 100%;
     bottom: 0;
-    z-index: 1030; /* Make sure it is above other content */
+    z-index: 1030; 
   }
   
   .d-flex {
@@ -35,7 +35,7 @@ body, html {
   }
   
   .navbar-nav {
-    gap: 40px;
+    gap: 20px;
   }
   
   .navbar-brand {
@@ -50,7 +50,7 @@ body, html {
   }
   
   .header-style:hover {
-    color: #d1d1d1; /* Optional: Change color on hover */
+    color: #d1d1d1; 
   }
   
   .btn-outline-light {
@@ -66,4 +66,11 @@ body, html {
 
   .bg-blue {
     background-color: #9ab9da; /* Bootstrap primary blue */
+}
+
+
+@media (max-width: 576px) {
+  .navbar {
+      margin-right: 10px; 
+  }
 }

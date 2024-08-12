@@ -1,0 +1,25 @@
+.iron-infusions-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .iron-infusions-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .iron-infusions-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .iron-infusions-container ul {
+    padding-left: 20px;
+  }
+  
+  .iron-infusions-container li {
+    margin-bottom: 10px;
+  }
+  
+  .iron-infusions-container p {
+    line-height: 1.6;
+  }
+  

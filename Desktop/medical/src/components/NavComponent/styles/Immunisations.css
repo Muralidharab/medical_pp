@@ -1,0 +1,29 @@
+.immunisations-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .immunisations-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .immunisations-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .immunisations-container h4 {
+    color: #007acc; /* Medium blue color for subsections */
+  }
+  
+  .immunisations-container ol, .immunisations-container ul {
+    padding-left: 20px;
+  }
+  
+  .immunisations-container li {
+    margin-bottom: 10px;
+  }
+  
+  .immunisations-container p {
+    line-height: 1.6;
+  }
+  

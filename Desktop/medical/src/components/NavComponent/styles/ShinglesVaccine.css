@@ -1,0 +1,29 @@
+.shingles-vaccine-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .shingles-vaccine-container h2 {
+    color: #004d99; /* Dark blue color for headings */
+  }
+  
+  .shingles-vaccine-container h3 {
+    color: #0066cc; /* Lighter blue color for subheadings */
+  }
+  
+  .shingles-vaccine-container h4 {
+    color: #0056b3; /* Medium blue color for sub-subheadings */
+  }
+  
+  .shingles-vaccine-container ul {
+    padding-left: 20px;
+  }
+  
+  .shingles-vaccine-container li {
+    margin-bottom: 10px;
+  }
+  
+  .shingles-vaccine-container p {
+    line-height: 1.6;
+  }
+  
