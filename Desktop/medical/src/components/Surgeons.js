@@ -1,5 +1,4 @@
 import React from "react";
-import d from "../assets/d.jpeg";
 
 function Surgeons() {
   return (

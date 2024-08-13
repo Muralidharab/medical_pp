@@ -12,7 +12,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-6">
             <h5>About Us</h5>
-            <p>
+            <p style={{color:'white'}}>
               We are a leading company in our field, committed to providing quality services and innovative solutions to our clients.
             </p>
           </div>

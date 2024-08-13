@@ -4,6 +4,8 @@ import NavHeader from "./components/NavComponent/NavHeader";
 // import NavHeader from './NavHeader';
 import './App.css'
 import LandingPage from "./landingPage/LandingPage";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 const App = () => {
   // const [isModalOpen, setModalOpen] = useState(false);

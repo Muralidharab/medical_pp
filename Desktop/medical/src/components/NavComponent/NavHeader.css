@@ -68,9 +68,21 @@ body, html {
     background-color: #9ab9da; /* Bootstrap primary blue */
 }
 
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Adjust this value if you want the dropdown closer or further from the parent */
+  background-color: #fff; /* Ensures the dropdown has a white background */
+  color: black; /* Text color inside dropdown */
+}
+
+.navbar-nav .dropdown:hover .nav-link {
+  color: #d1d1d1; /* Changes the Services link color when hovered */
+}
+
 
 @media (max-width: 576px) {
   .navbar {
-      margin-right: 10px; 
+      /* margin-right: 10px;  */
+      margin-right: 0;
   }
 }

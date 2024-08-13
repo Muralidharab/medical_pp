@@ -1,0 +1,23 @@
+/* Services.css */
+.container {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .table td i {
+    font-size: 1.2rem;
+  }
+  
+  .expanded-content {
+    background-color: #f9f9f9; /* Light background color for expanded content */
+    padding: 10px; /* Padding for better readability */
+  }
+  
