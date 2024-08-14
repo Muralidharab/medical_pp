@@ -1,13 +1,11 @@
 {
   "files": {
     "main.css": "/medical_pp/static/css/main.c00a0b47.css",
-    "main.js": "/medical_pp/static/js/main.55582369.js",
+    "main.js": "/medical_pp/static/js/main.93d1350f.js",
     "static/js/453.2a7947ce.chunk.js": "/medical_pp/static/js/453.2a7947ce.chunk.js",
-    "static/media/p.jpg": "/medical_pp/static/media/p.94e8ac023bf71ca07475.jpg",
+    "static/media/l.png": "/medical_pp/static/media/l.027fafacefaa1ca680ae.png",
     "static/media/k.jpg": "/medical_pp/static/media/k.44859759401471f00b46.jpg",
-    "static/media/wallpapers.jpg": "/medical_pp/static/media/wallpapers.e053069cd71ad61f3af6.jpg",
     "static/media/bootstrap-icons.woff?": "/medical_pp/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/t.jpg": "/medical_pp/static/media/t.804badc76033d154b778.jpg",
     "static/media/bootstrap-icons.woff2?": "/medical_pp/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/opd.jpeg": "/medical_pp/static/media/opd.a20f88e907fe9ee364fa.jpeg",
     "static/media/im.jpeg": "/medical_pp/static/media/im.78bc61b526f0079cf2ad.jpeg",
@@ -15,11 +13,11 @@
     "static/media/h.png": "/medical_pp/static/media/h.56121701769cdcb9996f.png",
     "index.html": "/medical_pp/index.html",
     "main.c00a0b47.css.map": "/medical_pp/static/css/main.c00a0b47.css.map",
-    "main.55582369.js.map": "/medical_pp/static/js/main.55582369.js.map",
+    "main.93d1350f.js.map": "/medical_pp/static/js/main.93d1350f.js.map",
     "453.2a7947ce.chunk.js.map": "/medical_pp/static/js/453.2a7947ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c00a0b47.css",
-    "static/js/main.55582369.js"
+    "static/js/main.93d1350f.js"
   ]
 }
