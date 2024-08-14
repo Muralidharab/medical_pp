@@ -2,7 +2,7 @@ import React from "react";
 
 function OurPractice() {
   return (
-    <div className="m-3">
+    <div className="container mt-5 pt-4 pb-4">
       <h1>Our Practice</h1>
 
       <p>

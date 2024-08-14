@@ -3,7 +3,7 @@ import opd from "../assets/opd.jpeg";
 
 function Opd() {
   return (
-    <div className="container mt-5" style={{ margin: "20px" }}>
+    <div className="container mt-5 pt-4 pb-4 ml-3" >
       <h2>What is Telehealth?</h2>
       <p>
         Telehealth is a modern approach to healthcare that allows you to receive

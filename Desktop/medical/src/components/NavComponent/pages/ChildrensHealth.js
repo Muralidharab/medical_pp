@@ -2,7 +2,7 @@ import React from 'react';
 
 function ChildrensHealth() {
   return (
-    <div className="childrens-health-container mt-3 ml-3">
+    <div className="childrens-health-container mt-5 pt-4 pb-4 ml-3">
       <h2>Children’s Health</h2>
       <p>
         From the moment your child is born through to their teenage years, we are committed to ensuring their health and well-being are our top priorities. Children’s health involves not just treating illnesses but also promoting overall development and well-being. Our team of doctors and healthcare professionals is dedicated to providing comprehensive care tailored to the unique needs of children at every stage of their growth.

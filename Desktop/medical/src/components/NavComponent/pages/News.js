@@ -2,7 +2,7 @@ import React from 'react'
 
 function News() {
   return (
-    <div className='m-3'>
+    <div className="container mt-5 pt-4 pb-4">
       <h1>News</h1>
       <p> Doctor Who is a British science fiction television series broadcast by the BBC since 1963. The series, created by Sydney Newman, C. E. Webber and Donald Wilson, depicts the adventures of an extraterrestrial being called the Doctor, part of a humanoid species called Time Lords. The Doctor travels in the universe and in time using a time travelling spaceship called the TARDIS, which externally appears as a British police box. While travelling, the Doctor works to save lives and liberate oppressed peoples by combating foes. The Doctor often travels with companions.
 

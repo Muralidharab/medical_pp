@@ -22,6 +22,8 @@ import CorporateFluClinics from "./pages/CorporateFluClinics";
 import IronInfusions from "./pages/IronInfusions";
 import ShinglesVaccine from "./pages/ShinglesVaccine";
 import ContraceptiveImplant from "./pages/ContraceptiveImplant";
+import logo from "../../assets/logo.png";
+// import apture from "../../assets/Capture.PNG";
 
 function NavHeader() {
   const [first, setfirst] = useState(false);
@@ -44,221 +46,250 @@ function NavHeader() {
 
   const toggleNavbar = () => {
     setIsNavbarCollapsed(!isNavbarCollapsed); // Toggle the collapse state
-  };  
+  };
 
   return (
-    <Router>
-      <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
-          <div className="container-fluid ml-3">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation"
-              aria-expanded={!isNavbarCollapsed}
-              onClick={toggleNavbar}
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className={`collapse navbar-collapse ml-2 ${isNavbarCollapsed ? '' : 'show'}`} id="navbarNav">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link className="nav-link header-style" to="/" onClick={handleNavItemClick}>
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link header-style" to="/ourPractice" onClick={handleNavItemClick}>
-                    Our Practice
-                  </Link>
-                </li>
-                <li className="nav-item dropdown">
-                  <Link
-                    className="nav-link dropdown-toggle header-style"
-                    to="/services"
-                    id="servicesDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    onClick={handleDropdownClick} // Added this line
-        
-                  >
-                    Services
-                  </Link>
-                  <ul
-                    className="dropdown-menu bg-white"
-                    aria-labelledby="servicesDropdown"
-                  >
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/Telehealth"
-                        style={{ color: "black" }}
-                      >
-                        Tele health
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/Women’"
-                        style={{ color: "black" }}
-                      >
-                        Women’s Health
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/mens-health"
-                        style={{ color: "black" }}
-                      >
-                        Men’s Health
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/childrens-health"
-                        style={{ color: "black" }}
-                      >
-                        Children’s Health
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/chronic-disease-management"
-                        style={{ color: "black" }}
-                      >
-                        Chronic Disease Management
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/Preventative-health"
-                        style={{ color: "black" }}
-                      >
-                        Preventative Health
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/immunisations"
-                        style={{ color: "black" }}
-                      >
-                        Immunisations
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/travel-medicine"
-                        style={{ color: "black" }}
-                      >
-                        Travel Medicine in Australia
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/corporate-flu-clinics"
-                        style={{ color: "black" }}
-                      >
-                        Corporate Flu Clinics
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/iron-infusions"
-                        style={{ color: "black" }}
-                      >
-                        Iron Infusions
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/shingles-vaccine"
-                        style={{ color: "black" }}
-                      >
-                        Shingles Vaccine
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="dropdown-item text-dark"
-                        to="/contraceptive-implant"
-                        style={{ color: "black" }}
-                      >
-                        Contraceptive Implant
-                      </Link>
-                    </li>
-
-                    {/* Add more items as needed */}
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link header-style" to="/news" onClick={handleNavItemClick}>
-                    News
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link header-style" to="/contact" onClick={handleNavItemClick}>
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
+    <>
+      <Router>
+        <div className="fixed-top-div">
+          {" "}
+          <p></p>
+        </div>
+        <header>
+          <nav className="navbar navbar-expand-lg navbar-dark bg-white ">
+            <div className="container-fluid m-3">
+              <img src={logo} className="d-block" alt="logo" />
               <button
+                className="navbar-toggler"
                 type="button"
-                className="btn btn-outline-light ms-lg-auto my-2 my-lg-0"
-                onClick={handleModal}
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-label="Toggle navigation"
+                aria-expanded={!isNavbarCollapsed}
+                onClick={toggleNavbar}
               >
-                Book Your Appointment
+                <span className="navbar-toggler-icon"></span>
               </button>
+              <div
+                className={`collapse navbar-collapse ml-2 ${
+                  isNavbarCollapsed ? "" : "show"
+                }`}
+                id="navbarNav"
+              >
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link header-style"
+                      to="/"
+                      onClick={handleNavItemClick}
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link header-style"
+                      to="/ourPractice"
+                      onClick={handleNavItemClick}
+                    >
+                      Our Practice
+                    </Link>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <Link
+                      className="nav-link dropdown-toggle header-style"
+                      to="/services"
+                      id="servicesDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      onClick={handleDropdownClick}
+                    >
+                      Services
+                    </Link>
+                    <ul
+                      className="dropdown-menu bg-white"
+                      aria-labelledby="servicesDropdown"
+                    >
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/Telehealth"
+                          style={{ color: "black" }}
+                        >
+                          Tele health
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/Women’"
+                          style={{ color: "black" }}
+                        >
+                          Women’s Health
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/mens-health"
+                          style={{ color: "black" }}
+                        >
+                          Men’s Health
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/childrens-health"
+                          style={{ color: "black" }}
+                        >
+                          Children’s Health
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/chronic-disease-management"
+                          style={{ color: "black" }}
+                        >
+                          Chronic Disease Management
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/Preventative-health"
+                          style={{ color: "black" }}
+                        >
+                          Preventative Health
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/immunisations"
+                          style={{ color: "black" }}
+                        >
+                          Immunisations
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/travel-medicine"
+                          style={{ color: "black" }}
+                        >
+                          Travel Medicine in Australia
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/corporate-flu-clinics"
+                          style={{ color: "black" }}
+                        >
+                          Corporate Flu Clinics
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/iron-infusions"
+                          style={{ color: "black" }}
+                        >
+                          Iron Infusions
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/shingles-vaccine"
+                          style={{ color: "black" }}
+                        >
+                          Shingles Vaccine
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="dropdown-item text-dark"
+                          to="/contraceptive-implant"
+                          style={{ color: "black" }}
+                        >
+                          Contraceptive Implant
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link header-style"
+                      to="/news"
+                      onClick={handleNavItemClick}
+                    >
+                      News
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link header-style"
+                      to="/contact"
+                      onClick={handleNavItemClick}
+                    >
+                      Contact Us
+                    </Link>
+                  </li>
+                </ul>
+                <button
+                  type="button"
+                  className="btn btn-outline-light ms-lg-auto my-2 my-lg-0"
+                  onClick={handleModal}
+                  data-bs-toggle="modal" data-bs-target="#appointmentModal"
+                >
+                  Book Your Appointment 
+                </button>
+              </div>
             </div>
-          </div>
-        </nav>
-      </header>
-      <main className="flex-grow-1 mt-5 pt-4">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/ourPractice" element={<OurPractice />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Telehealth" element={<Opd />} />
-          <Route path="/Women’" element={<Surgeons />} />
-          <Route path="/mens-health" element={<MensHealth />} />
-          <Route path="/childrens-health" element={<ChildrensHealth />} />
-          <Route
-            path="/chronic-disease-management"
-            element={<ChronicDiseaseManagement />}
-          />
-          <Route path="/Preventative-health" element={<PreventativeHealth />} />
-          <Route path="/immunisations" element={<Immunisations />} />
-          <Route path="/travel-medicine" element={<TravelMedicine />} />
-          <Route
-            path="/corporate-flu-clinics"
-            element={<CorporateFluClinics />}
-          />
-          <Route path="/iron-infusions" element={<IronInfusions />} />
-          <Route path="/shingles-vaccine" element={<ShinglesVaccine />} />
-          <Route
-            path="/contraceptive-implant"
-            element={<ContraceptiveImplant />}
-          />
-          {/* Add more routes as needed */}
-        </Routes>
-      </main>
-      {first && <AppointmentModal />}
-    </Router>
+          </nav>
+        </header>
+        <main className="flex-grow-1 mt-5 pt-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/ourPractice" element={<OurPractice />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/Telehealth" element={<Opd />} />
+            <Route path="/Women’" element={<Surgeons />} />
+            <Route path="/mens-health" element={<MensHealth />} />
+            <Route path="/childrens-health" element={<ChildrensHealth />} />
+            <Route
+              path="/chronic-disease-management"
+              element={<ChronicDiseaseManagement />}
+            />
+            <Route
+              path="/Preventative-health"
+              element={<PreventativeHealth />}
+            />
+            <Route path="/immunisations" element={<Immunisations />} />
+            <Route path="/travel-medicine" element={<TravelMedicine />} />
+            <Route
+              path="/corporate-flu-clinics"
+              element={<CorporateFluClinics />}
+            />
+            <Route path="/iron-infusions" element={<IronInfusions />} />
+            <Route path="/shingles-vaccine" element={<ShinglesVaccine />} />
+            <Route
+              path="/contraceptive-implant"
+              element={<ContraceptiveImplant />}
+            />
+            {/* Add more routes as needed */}
+          </Routes>
+        </main>
+        <AppointmentModal />
+      </Router>
+    </>
   );
 }
 

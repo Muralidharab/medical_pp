@@ -3,7 +3,7 @@ import '.././styles/TravelMedicine.css'; // Create this CSS file for styling
 
 function TravelMedicine() {
   return (
-    <div className="travel-medicine-container mt-3 ml-3">
+    <div className="travel-medicine-container mt-5 pt-4 pb-4 ml-3">
       <h2>Travel Medicine in Australia</h2>
       <p>
         Travel medicine is a vital aspect of preparing for international travel, ensuring that you stay healthy and safe while exploring new destinations. One common issue travelers may encounter is travel-related diarrhea, which can be unpleasant and disruptive. However, it is often preventable with the right precautions and advice. Our travel medicine consultations are designed to help you minimize risks and promote your health while traveling.

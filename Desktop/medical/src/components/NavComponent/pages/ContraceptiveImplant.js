@@ -3,7 +3,7 @@ import '.././styles/ContraceptiveImplant.css'; // Create this CSS file for styli
 
 function ContraceptiveImplant() {
   return (
-    <div className="contraceptive-implant-container mt-3 ml-3">
+    <div className="contraceptive-implant-container mt-5 pt-4 pb-4 ml-3">
       <h2>Contraceptive Implant: Implanon</h2>
       <p>
         Implanon is a highly effective long-acting contraceptive method designed to prevent pregnancy. It is a small, flexible rod that contains the hormone etonogestrel, a synthetic form of progesterone, which is similar to the naturally occurring hormone produced by a woman's ovaries.

@@ -3,7 +3,7 @@ import '.././styles/IronInfusions.css'; // Create this CSS file for styling
 
 function IronInfusions() {
   return (
-    <div className="iron-infusions-container mt-3 ml-3">
+    <div className="iron-infusions-container mt-5 pt-4 pb-4 ml-3">
       <h2>Iron Infusions</h2>
       <p>
         Iron infusions are a medical treatment used to address iron deficiency, which can occur with or without accompanying anaemia. If you are experiencing symptoms of iron deficiency or have been diagnosed with low iron levels, an iron infusion might be a beneficial treatment option.

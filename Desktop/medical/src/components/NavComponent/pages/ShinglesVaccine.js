@@ -3,7 +3,7 @@ import '.././styles/ShinglesVaccine.css'; // Create this CSS file for styling
 
 function ShinglesVaccine() {
   return (
-    <div className="shingles-vaccine-container mt-3 ml-3">
+    <div className="shingles-vaccine-container mt-5 pt-4 pb-4 ml-3">
       <h2>Shingles Vaccine</h2>
       <p>
         The shingles vaccine is designed to protect against herpes zoster (shingles), a painful and potentially debilitating condition caused by the reactivation of the varicella zoster virus. This is the same virus responsible for chickenpox. Understanding the shingles vaccine and its benefits is crucial for those who may be at risk of this painful condition.

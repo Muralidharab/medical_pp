@@ -3,7 +3,7 @@ import '.././styles/Immunisations.css'; // Create this CSS file for styling
 
 function Immunisations() {
   return (
-    <div className="immunisations-container mt-3 ml-3">
+    <div className="immunisations-container mt-5 pt-4 pb-4 ml-3">
       <h2>Immunisations</h2>
       <p>
         Immunisation is a cornerstone of public health in Australia, playing a critical role in safeguarding individuals, particularly children, from a range of serious diseases. It is the safest and most effective method for providing protection against various infectious diseases, including tetanus, whooping cough, measles, and hepatitis.

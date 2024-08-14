@@ -88,7 +88,7 @@ function Services() {
   };
 
   return (
-    <div className="container mt-5 pt-3">
+    <div className="container mt-4 pt-4 pb-4">
       <h1>Our Services</h1>
       <div className="table-responsive">
         <table className="table table-striped table-bordered">

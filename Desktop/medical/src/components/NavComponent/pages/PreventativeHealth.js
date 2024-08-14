@@ -3,7 +3,7 @@ import '.././styles/PreventativeHealth.css'; // Create this CSS file for styling
 
 function PreventativeHealth() {
   return (
-    <div className="preventative-health-container">
+    <div className="preventative-health-container mt-5 pt-4 pb-4 ml-3">
       <h2>Preventative Health</h2>  
       <p>
         At our practice, disease prevention and health promotion are at the heart of our mission. We believe that maintaining a healthy quality of life begins with a proactive approach to health care. Our team of dedicated doctors and nurses is committed to preventing disease and promoting wellness through comprehensive primary healthcare services tailored to individuals of all ages, genders, and health conditions.

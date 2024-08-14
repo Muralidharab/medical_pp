@@ -4,7 +4,7 @@ import '.././styles/MensHealth.css';
 
 function MensHealth() {
   return (
-    <div className="mens-health-container">
+    <div className="mens-health-container mt-5 pt-4 pb-4 ml-3">
       <h2>Men’s Health</h2>
       <p>
         Men's health is a critical yet often overlooked aspect of overall

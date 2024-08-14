@@ -3,7 +3,7 @@ import '.././styles/CorporateFluClinics.css'; // Create this CSS file for stylin
 
 function CorporateFluClinics() {
   return (
-    <div className="corporate-flu-clinics-container mt-3 ml-3">
+    <div className="corporate-flu-clinics-container mt-5 pt-4 pb-4 ml-3">
       <h2>Corporate Flu Clinics</h2>
       <p>
         At our practice, we are committed to helping businesses ensure the health and safety of their employees through effective immunisation programs. Our Corporate Flu Clinics are designed to provide convenient and comprehensive vaccination services, focusing on flu and COVID-19 prevention.

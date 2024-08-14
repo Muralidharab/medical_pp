@@ -3,7 +3,7 @@ import '.././styles/ChronicDiseaseManagement.css';
 
 function ChronicDiseaseManagement() {
   return (
-    <div className="chronic-disease-management-container mt-3 ml-3">
+    <div className="chronic-disease-management-container mt-5 pt-4 pb-4 ml-3">
       <h2>Chronic Disease Management</h2>
       <p>
         Living with a chronic disease requires ongoing care, support, and management to maintain your quality of life and well-being. Chronic diseases often need long-term treatment and a proactive approach to effectively manage symptoms and prevent complications. At our practice, we understand the complexities of chronic conditions and are dedicated to providing comprehensive care tailored to your specific needs.

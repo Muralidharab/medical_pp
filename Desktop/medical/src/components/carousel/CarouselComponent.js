@@ -12,19 +12,19 @@ function CarouselComponent() {
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel " data-bs-interval="2000">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={p} className="d-block" style={{ width: '100%', height: '500px  ' }} alt="Slide 1" />
+          <img src={p} className="d-block" style={{ width: '100%', height: '600px  ' }} alt="Slide 1" />
         </div>
         <div className="carousel-item">
-          <img src={t} className="d-block" style={{ width: '100%', height: '500px  ' }} alt="Slide 2" />
+          <img src={t} className="d-block" style={{ width: '100%', height: '600px  ' }} alt="Slide 2" />
         </div>
         <div className="carousel-item">
-          <img src={wallpapers} className="d-block" style={{ width: '100%', height: '500px ' }} alt="Slide 3" />
+          <img src={wallpapers} className="d-block" style={{ width: '100%', height: '600px ' }} alt="Slide 3" />
         </div>
         <div className="carousel-item">
-          <img src={k} className="d-block" style={{ width: '100%', height: '500px  ' }}   alt="Slide 4" />
+          <img src={k} className="d-block" style={{ width: '100%', height: '600px  ' }}   alt="Slide 4" />
         </div>
         <div className="carousel-item">
-          <img src={l} className="d-block" style={{ width: '100%', height: '500px  ' }}   alt="Slide 4" />
+          <img src={l} className="d-block" style={{ width: '100%', height: '600px  ' }}   alt="Slide 4" />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
