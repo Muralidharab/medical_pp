@@ -1,5 +1,5 @@
 // NavHeader.js
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -22,17 +22,13 @@ import CorporateFluClinics from "./pages/CorporateFluClinics";
 import IronInfusions from "./pages/IronInfusions";
 import ShinglesVaccine from "./pages/ShinglesVaccine";
 import ContraceptiveImplant from "./pages/ContraceptiveImplant";
-import logo from "../../assets/logo.png";
+import WhatsApp from "../../assets/WhatsApp.jpeg";
+import TopHighliter from "./pages/TopHighliter";
 // import apture from "../../assets/Capture.PNG";
 
 function NavHeader() {
-  const [first, setfirst] = useState(false);
+  useEffect(() => {}, []);
 
-  const handleModal = () => {
-    console.log("1");
-
-    setfirst(true);
-  };
   const handleDropdownClick = (e) => {
     e.preventDefault();
     window.location.href = "/services";
@@ -50,15 +46,15 @@ function NavHeader() {
 
   return (
     <>
-      <Router>
-        <div className="fixed-top-div">
-          {" "}
+      <Router basename="/">
+        <div className="fixed-top-div ">
+          <TopHighliter/>
           <p></p>
         </div>
         <header>
           <nav className="navbar navbar-expand-lg navbar-dark bg-white ">
-            <div className="container-fluid m-3">
-              <img src={logo} className="d-block" alt="logo" />
+            <div className="container-fluid mr-3 ml-3 ml-md-5 ml-lg-5  container-lg">
+              <img src={WhatsApp} className="d-block ml-md-5 ml-lg-5" alt="logo" style={{width:'50px', height:'50px'}} />
               <button
                 className="navbar-toggler"
                 type="button"
@@ -77,7 +73,7 @@ function NavHeader() {
                 }`}
                 id="navbarNav"
               >
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav ">
                   <li className="nav-item">
                     <Link
                       className="nav-link header-style"
@@ -244,10 +240,10 @@ function NavHeader() {
                 <button
                   type="button"
                   className="btn btn-outline-light ms-lg-auto my-2 my-lg-0"
-                  onClick={handleModal}
-                  data-bs-toggle="modal" data-bs-target="#appointmentModal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#appointmentModal"
                 >
-                  Book Your Appointment 
+                  Book Your Appointment
                 </button>
               </div>
             </div>

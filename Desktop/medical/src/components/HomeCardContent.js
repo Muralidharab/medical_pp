@@ -47,15 +47,15 @@ function HomeCardContent() {
         <div className="col-lg-7 col-12 d-flex justify-content-center align-items-center">
           <img src={h} alt="home logo" className="img-fluid" />
         </div>
-        <div className="col-lg-5 col-12">
-          <h3>Welcome to Docmed</h3>
+        <div className="col-lg-5 col-12 align-item-center">
+          <h3>Welcome to GN Medicals</h3>
           <div
             style={{
               width: "100px",
               height: "4px",
               borderRadius: "1px",
               backgroundColor: "#9ab9da",
-              margin: "2px auto",
+              marginTop:'2px'
             }}
           ></div>
           <h1 className="mt-4" style={{ textAlign: "start" }}>

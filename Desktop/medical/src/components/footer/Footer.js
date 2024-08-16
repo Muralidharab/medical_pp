@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import WhatsApp from "../../assets/WhatsApp.jpeg";
+
 import "../../landingPage/LandingPage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,10 +12,10 @@ function Footer() {
           <div className="row">
             <div className="col-md-5">
               <img
-                src={logo}
+                src={WhatsApp}
                 className="d-block"
                 alt="logo"
-                style={{ color: "#ffffff" }}
+                style={{ color: "#ffffff", width:'70px', height:'70px' }}
               />
               <p
                 style={{
